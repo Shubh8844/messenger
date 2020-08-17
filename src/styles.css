@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+*{
+ 
+padding:0px;
+margin:0px;
+}
+.app__form{
+padding:5px;
+position: fixed;
+bottom:10px;
+z-index: 1;
+background-color: #e9e9eb;
+width:100%;
+margin:3px;
+
+
+}
+
+.app__formControl{
+display:flex !important;
+flex-direction: row !important;
+
+}
+
+.app__input{
+  flex:1;
+}
+.app__iconButton{
+  flex:0;
+}
+
+img{
+margin-top:10px;
+width:100%;
+height:80px;
+object-fit: contain;
+}
